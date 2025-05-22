@@ -22,7 +22,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 // Secret key for JWT (should be stored in an environment variable in production)
-const JWT_SECRET = process.env.JWT_SECRET || '][q,s^z4X_J|5c['; // Use env variable with a fallback
+const JWT_SECRET = process.env.JWT_SECRET || '*****'; // Use env variable with a fallback
 
 // Helper function to generate JWT
 const generateToken = (user) => {
