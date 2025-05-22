@@ -1,104 +1,122 @@
 # Job Application Platform  
 
-Vercel App Link - https://job-portal-peach-zeta.vercel.app/
-
 The Job Tracker Application is a comprehensive web-based platform designed to assist job seekers in managing their job search process. By connecting to external job platforms like LinkedIn, Glassdoor, and Indeed, the application provides real-time job listings based on the user's search keywords.
 
 Our platform helps users track applications, analyze performance metrics from various job sites, and streamline the entire job search journey with features such as:
 
-    Real-time job listings from multiple platforms
-    Application status tracking
-    Performance analytics dashboard
-    Direct application capabilities
+- Real-time job listings from multiple platforms  
+- Application status tracking  
+- Performance analytics dashboard  
+- Direct application capabilities  
 
-## Project Structure
+---
+
+Vercel App Link - https://job-portal-peach-zeta.vercel.app/
+
+## 🎬 Video Demonstration
+
+[![Demo Video](https://github.com/Swetha1802/Personalized-Job-Application-Tracker/blob/main/client/src/images/thumbnail-wd.png)](https://youtu.be/BdAjbZpp2os)
+
+---
+
+## 📁 Project Structure
 
 This project consists of two main parts:
 
 ### Backend (API)
-- Built with Node.js
-- Database schema defined with Prisma
-- Environment configuration via `.env` file
+- Built with Node.js  
+- Database schema defined with Prisma  
+- Environment configuration via `.env` file  
 
 ### Frontend (Client)
-- React-based application
-- User authentication system
-- Job listings functionality
-- Dashboard interface
+- React-based application  
+- User authentication system  
+- Job listings functionality  
+- Dashboard interface  
 
-### Configuration
+---
+
+## ⚙️ Configuration
 
 1. Set up your environment variables:
-   - Copy the example `.env` file in the api directory
-   - Update with your database connection string and other configuration
+   - Copy the example `.env` file in the api directory  
+   - Update with your database connection string and other configuration  
 
-### Running the Application
+---
+
+## 🚀 Running the Application
 
 1. Start the backend server:
-```
-cd api
-npm start
-```
+   ```bash
+   cd api
+   npm start
+   ```
 
 2. Start the frontend application:
-```
-cd client
-npm start
-```
+   ```bash
+   cd client
+   npm start
+   ```
 
-## Technology Stack
+---
 
-- **Frontend**:
-  - React
-  - React Router for navigation
-  - CSS for styling
+## 🛠 Technology Stack
 
-- **Backend**:
-  - Node.js
-  - Prisma ORM for database operations
+### Frontend
+- React  
+- React Router  
+- CSS  
 
+### Backend
+- Node.js  
+- Prisma ORM  
 
-## Features
+---
+
+## 🔐 Features
 
 ### User Authentication System
-- **Sign Up**: New users can create accounts by providing their personal information including:
-  - First name and last name
-  - Email address (with validation)
-  - Secure password (with strength requirements)
-  - Date of birth (with age verification)
-- **Login**: Returning users can securely access their accounts
-- **Authentication Context**: React context API implementation maintains user session across the application
-- **Protected Routes**: Certain pages and features are only accessible to authenticated users
-- **Form Validation**: Client-side validation ensures data integrity before submission
+- **Sign Up**: New users can create accounts by providing:
+  - First name and last name  
+  - Email address (with validation)  
+  - Secure password (with strength requirements)  
+  - Date of birth (with age verification)  
+- **Login**: Secure login for returning users  
+- **Authentication Context**: Maintains user session using React Context API  
+- **Protected Routes**: Restricted access to authenticated users only  
+- **Form Validation**: Ensures data integrity on client side  
 
 ### Job Listings
-- **Browse Jobs**: Users can view a comprehensive list of available job positions
-- **Search Functionality**: Filter jobs based on various criteria
-- **Apply Mechanism**: Streamlined process for submitting applications to interesting positions.
+- **Browse Jobs**: View available job positions  
+- **Search Functionality**: Filter jobs based on keywords  
+- **Apply Mechanism**: Direct application to positions  
 
 ### Dashboard Interface
-- **User Profile**: Personalized dashboard showing user information
-- **Application Tracking**: Monitor the status of submitted applications:
-  - Applied
-  - Interviews scheduled
-  - Selected
-  - Rejected applications
-- **Application History**: Complete history of all past applications
-- **Profile Management**: Users can update their personal information and preferences
-
+- **User Profile**: View user info on dashboard  
+- **Application Tracking**: Monitor job application statuses:
+  - Applied  
+  - Interview Scheduled  
+  - Selected  
+  - Rejected  
+- **Application History**: View all previous job applications  
+- **Profile Management**: Update user information  
 
 ### Responsive Design
-- **Mobile-First Approach**: Optimized for various screen sizes and devices
-- **Adaptive Layouts**: Interface elements rearrange based on viewport size
-- **Touch-Friendly Controls**: Enhanced usability on touchscreen devices
-- **Consistent Experience**: Maintains functionality and aesthetics across desktop, tablet, and mobile devices
-- **Accessibility Features**: Designed with accessibility guidelines in mind for inclusive user experience
+- Mobile-first layout  
+- Adaptive interface for different screen sizes  
+- Touch-friendly UI  
+- Accessibility support  
 
+---
 
-
-## Testing
+## ✅ Testing
 
 The application includes test suites for components:
-```
+```bash
 npm test
 ```
+
+---
+
+## 👥 Contributors  
+Afrah, Bala, Swetha
